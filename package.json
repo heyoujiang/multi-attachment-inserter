@@ -1,0 +1,19 @@
+{
+  "name": "multi-attachment-inserter",
+  "version": "0.1.0",
+  "description": "Insert multiple attachments and camera photos in Obsidian. Supports mobile and desktop.",
+  "author": "heyoujiang",
+  "main": "main.js",
+  "scripts": {
+    "dev": "node esbuild.config.js",
+    "build": "tsc -noEmit -skipLibCheck && node esbuild.config.js production"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.6",
+    "builtin-modules": "3.3.0",
+    "esbuild": "0.17.3",
+    "obsidian": "latest",
+    "tslib": "2.4.0",
+    "typescript": "4.7.4"
+  }
+}

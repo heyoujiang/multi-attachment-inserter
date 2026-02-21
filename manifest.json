@@ -1,0 +1,10 @@
+{
+	"id": "multi-attachment-inserter",
+	"name": "Multi-Attachment Inserter",
+	"version": "0.1.0",
+	"minAppVersion": "1.0.0",
+	"description": "Insert multiple attachments and camera photos. Supports mobile and desktop.",
+	"author": "heyoujiang",
+	"authorUrl": "",
+	"isDesktopOnly": false
+}
